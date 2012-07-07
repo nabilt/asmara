@@ -1,0 +1,102 @@
+@import "bootstrap.less";     
+@import "responsive.less"; 
+@import "bootstrap-override.less";  
+ 
+body {
+    font-family: 'Advent Pro', Helvetica, Arial, sans-serif;
+    background-image: url('../img/background_blur.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Advent Pro', Helvetica, Arial, sans-serif;
+}
+
+// Static Navbar fix
+.navbar-inner {	
+  font-size: 18px;
+  border-bottom: 1px solid #333;
+  font-weight: 400;
+}
+
+.bul-letter {
+}
+
+.menu ol > ul > li {
+    width: 85%;
+}
+
+.menu ol > ol > li,
+.menu ol > ul {
+    color: #999;
+}
+
+.menu ol > ul {
+    margin-bottom: 15px;
+}
+
+#thumbs li {
+    float: left;
+    width: 100px;
+}
+
+@text-color: white;
+//@text-color: black;
+
+.post-container {
+    background-image: url('../img/dvsup.png');
+    background-repeat:repeat;
+    //background: black;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: @text-color;
+    .box-shadow(0 0 3px 1px #111);
+    .border-radius(4px);
+    border: 1px solid #333;
+}
+.social-button-container {
+    height: 10px;
+    padding-bottom: 20px;
+}
+
+.social-button {
+  margin-top: 7px;
+  width: 85px;
+}
+
+.fb-like {
+    bottom: 3px;
+}
+
+.center-me {
+    text-align: center;
+}
+
+.center-block() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-box {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    .box-shadow(0 0 6px 2px lighten(#ccc, 10%));
+}
+
+.project-box img {
+    .center-block();
+    margin-bottom: 10px;
+}
+
+.project-box .caption {
+    //.center-block();
+    padding-left: 2%;
+    padding-right: 2%;
+}
+

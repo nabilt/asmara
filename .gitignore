@@ -1,0 +1,15 @@
+*.egg
+*.egg-info
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*$py.class
+*.pt.py
+*.txt.py
+dist/
+
+#~
+
+.DS_Store
+.Python

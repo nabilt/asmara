@@ -1,0 +1,46 @@
+// Navbar
+// -------------------------
+
+@redLight:                        lighten(@red,10%);
+
+@navbarHeight:                    40px;
+@navbarBackground:                @grayDarker;
+@navbarBackgroundHighlight:       @black;
+
+@navbarText:                      @white;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            @white;
+@navbarLinkColorActive:           @navbarLinkColorHover;
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      @grayDark;
+
+@navbarSearchBackground:          lighten(@navbarBackground, 25%);
+@navbarSearchBackgroundFocus:     @white;
+@navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
+@navbarSearchPlaceholderColor:    #ccc;
+@navbarBrandColor:                @navbarLinkColor;
+
+/*
+.brand {
+    font-weight: 500 !important;
+    @elementHeight: 25px;
+    font-size: @elementHeight !important;
+    padding: ((@navbarHeight - @elementHeight) / 2 - 1) 20px ((@navbarHeight - @elementHeight) / 2 + 1) !important;
+}
+
+*/
+
+h3 {
+    color: @redLight;
+}
+
+// Static Navbar fix
+.navbar-inner {	
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.navbar {
+    //font-weight: bold;
+}
