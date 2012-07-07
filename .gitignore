@@ -9,7 +9,7 @@
 *.txt.py
 dist/
 
-#~
+*~
 
 .DS_Store
 .Python

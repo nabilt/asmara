@@ -16,7 +16,7 @@ def main():
         if fileExtension == ".mak" and fileName != "base" and fileName[0] != ".":
             print  fileName, fileExtension
             html = serve_template(fullFileName)
-            f = open('html/' + fileName + ".html", 'aw+')
+            f = open(fileName + ".html", 'aw+')
             f.truncate(0)
             f.write(html)
             f.close()
