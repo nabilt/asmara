@@ -7394,8 +7394,11 @@ p {
 .menu ol > ul {
   margin-bottom: 15px;
 }
+#thumbs {
+  text-align: center;
+}
 #thumbs li {
-  width: 100px;
+  margin: 4px;
 }
 .post-container {
   background-image: url('../img/dvsup.png');
